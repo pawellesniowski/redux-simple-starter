@@ -49,7 +49,7 @@ class SearchBar extends Component{
             return (
                 <form onSubmit={this.onFormSubmit} className="input-group">
                     <input 
-                        placeholder="Get a forecast"
+                        placeholder="Get a forecast."
                         className="form-control"
                         value={this.state.term} // the imputs value comes from state
                         onChange={this.onInputChange} // whenever someone change input, run this function
